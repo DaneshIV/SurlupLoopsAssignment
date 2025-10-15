@@ -117,3 +117,78 @@ Create a .env.local file in the project root and fill in your credentials:
 ```
 > [!TIP]
 > You can use the <code>.env.example</code> file as a template — it’s safe to push this version to GitHub since it doesn’t contain real keys.
+---
+▶️ Running the Application
+
+Development Mode 
+```bash
+  npm run dev
+```
+Connecting WhatsApp (Twilio)
+Use ngrok to tunnel your local server:
+```bash
+  ngrok http 3000
+```
+Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "When a message comes in" field, pointing it to:
+
+```arduino
+  https://<your-domain>.ngrok-free.app/api/whatsapp
+```
+----
+## 🧩 System Architecture
+
+```vbnet
+      ┌────────────────────────┐
+      │ WhatsApp User          │
+      └──────────┬─────────────┘
+                 │  (via Twilio API)
+                 ▼
+      ┌────────────────────────┐
+      │ Next.js API (WhatsApp) │
+      │ Handles chat logic      │
+      └──────────┬─────────────┘
+                 ▼
+      ┌────────────────────────┐
+      │ MongoDB (Mongoose)     │
+      │ Bookings & TimeSlots   │
+      └──────────┬─────────────┘
+           ┌──────┴──────┐
+           ▼             ▼
+      ┌────────────┐   ┌────────────────────┐
+      │ Nodemailer │   │ Google Calendar API│
+      │ Send Email │   │ Create Event       │
+      └────────────┘   └────────────────────┘
+                 │
+                 ▼
+      ┌────────────────────────┐
+      │ Next.js Dashboard UI   │
+      │ View live status & data│
+      └────────────────────────┘
+```
+----
+## 🌟 Key Features
+✅ WhatsApp-based booking system <br>
+✅ Real-time MongoDB synchronization <br>
+✅ Automated email confirmation <br>
+✅ Google Calendar integration <br>
+✅ Responsive admin dashboard <br>
+✅ Scalable architecture for future add-ons <br>
+---
+## 🚀 Future Enhancements 
+- Integrate Clerk / Auth.js for secure admin login
+- Add Stripe for online deposits
+- Introduce Socket.io for live dashboard updates
+- Enable full CRUD for managing slots and bookings
+---
+
+## 🧑‍💻 Author
+### Danesh Muthu Krisnan
+🎓 Computer Science In Network & Security Student <br>
+💡 Built using Next.js, MongoDB, and Twilio APIs
+---
+📜 License
+This project is open-source and available under the MIT License.
+```yaml
+Would you like me to format it further with **badges** (Next.js, MongoDB, Twilio, Gmail, Google Calendar) at the top?  
+That’ll give your GitHub README a **portfolio-level look**.
+```
