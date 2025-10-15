@@ -209,8 +209,9 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 ---
 ### 📜 License
 
-This project is licensed under the **MIT License** — see the full [LICENSE](LICENSE) file for details.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This project is licensed under the MIT License — see the full [LICENSE](LICENSE) file for details.
 ---
 <p align="center">
   <i>“DeckedOut”</i><br><br>
