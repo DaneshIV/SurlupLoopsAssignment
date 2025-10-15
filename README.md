@@ -25,6 +25,25 @@ A customer messages your WhatsApp number → chooses a time slot → receives a 
 
 ---
 
+---
+
+## 🖼️ Tech Stack Preview
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/FramerMotion-EA4C89?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white" alt="Twilio" />
+  <img src="https://img.shields.io/badge/Nodemailer-FFA500?style=for-the-badge&logo=gmail&logoColor=white" alt="Nodemailer" />
+  <img src="https://img.shields.io/badge/Google%20Calendar-4285F4?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Google Calendar" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white" alt="ngrok" />
+</p>
+
+---
+
 ## 💬 Story Flow — How It Works
 
 It all begins with a message.
@@ -180,11 +199,10 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 - Introduce Socket.io for live dashboard updates
 - Enable full CRUD for managing slots and bookings
 ---
-
 ## 🧑‍💻 Author
-### Danesh Muthu Krisnan
-🎓 Computer Science In Network & Security Student <br>
-💡 Built using Next.js, MongoDB, and Twilio APIs
+### Danesh Muthu Krisnan 
+### 🎓 Computer Science In Network & Security Student
+### 💡 Built using Next.js, MongoDB, and Twilio APIs
 ---
 📜 License
 This project is open-source and available under the MIT License.
