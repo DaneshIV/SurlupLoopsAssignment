@@ -200,9 +200,12 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 - Enable full CRUD for managing slots and bookings
 ---
 ## 🧑‍💻 Author  <br>
-**Danesh Muthu Krisnan**
-> 🎓 *Computer Science in Network & Security Student*  
-> ✨ *Built using Next.js, MongoDB, and Twilio APIs*
+<p align="center">
+  <b>Danesh Muthu Krisnan</b><br>
+  🎓 Computer Science in Network & Security Student<br>
+  💡 Built using <b>Next.js</b>, <b>MongoDB</b>, and <b>Twilio APIs</b>
+</p>
+
 ---
 ---
 📜 License
