@@ -199,10 +199,11 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 - Introduce Socket.io for live dashboard updates
 - Enable full CRUD for managing slots and bookings
 ---
-## 🧑‍💻 Author
-### Danesh Muthu Krisnan 
-### 🎓 Computer Science In Network & Security Student
-### 💡 Built using Next.js, MongoDB, and Twilio APIs
+## 🧑‍💻 Author  <br>
+**Danesh Muthu Krisnan**
+> 🎓 *Computer Science in Network & Security Student*  
+> ✨ *Built using Next.js, MongoDB, and Twilio APIs*
+---
 ---
 📜 License
 This project is open-source and available under the MIT License.
@@ -210,3 +211,4 @@ This project is open-source and available under the MIT License.
 Would you like me to format it further with **badges** (Next.js, MongoDB, Twilio, Gmail, Google Calendar) at the top?  
 That’ll give your GitHub README a **portfolio-level look**.
 ```
+---
