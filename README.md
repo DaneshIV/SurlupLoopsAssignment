@@ -186,12 +186,12 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 ```
 ----
 ## 🌟 Key Features
-✅ WhatsApp-based booking system <br>
-✅ Real-time MongoDB synchronization <br>
-✅ Automated email confirmation <br>
-✅ Google Calendar integration <br>
-✅ Responsive admin dashboard <br>
-✅ Scalable architecture for future add-ons <br>
+> ✅ WhatsApp-based booking system <br>
+> ✅ Real-time MongoDB synchronization <br>
+> ✅ Automated email confirmation <br>
+> ✅ Google Calendar integration <br>
+> ✅ Responsive admin dashboard <br>
+> ✅ Scalable architecture for future add-ons <br>
 ---
 ## 🚀 Future Enhancements 
 - Integrate Clerk / Auth.js for secure admin login
