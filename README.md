@@ -215,3 +215,11 @@ Would you like me to format it further with **badges** (Next.js, MongoDB, Twilio
 That’ll give your GitHub README a **portfolio-level look**.
 ```
 ---
+## 🪄 Footer  
+
+<p align="center">
+  <i>“DeckedOut”</i><br><br>
+    <img src="https://i.imgur.com/wswO9vz.gif" width="800" alt="project gif"><br><br>
+  <b>Made by Danesh Muthu Krisnan</b><br>
+  © 2025 All Rights Reserved
+</p>
