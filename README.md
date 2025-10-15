@@ -211,8 +211,7 @@ Then copy your forwarding URL into the Twilio Console → WhatsApp Sandbox → "
 📜 License
 This project is open-source and available under the MIT License.
 ```yaml
-Would you like me to format it further with **badges** (Next.js, MongoDB, Twilio, Gmail, Google Calendar) at the top?  
-That’ll give your GitHub README a **portfolio-level look**.
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 ```
 ---
 <p align="center">
